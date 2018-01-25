@@ -1,0 +1,16 @@
+{% extends './layout.html' %}
+{% block content %}
+
+<div>
+  Information for the {{ team.team }}
+  <br>
+  <ul>
+    <li>Sport: {{ team.sport }}</li>
+    <li>Stadium: {{ team.stadium }}</li>
+    <li>Mascot: {{ team.mascot }}</li>
+  </ul>
+
+</div>
+<a href="/teams">Back to all teams &raquo;</a>
+
+{% endblock %}
