@@ -1,9 +1,9 @@
 {% extends './layout.html' %}
 
 {% block content %}
-<ul>
+<ul class="list-group">
   {% for team in teams %}
-    <li>
+    <li class="list-group-item">
       <a href="/teams/{{team.id}}">{{ team.team }}
       </a>
     </li>
